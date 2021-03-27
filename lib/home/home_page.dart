@@ -31,13 +31,9 @@ class HomePage extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              // o widget IntrinsicHeight define uma altura para os
-              // seus filhos dentro de uma column (com base no seu
-              // conteúdo)
+             
               IntrinsicHeight(
                 child: Stack(
-                  // a Stack se expande para ocupar todo o espaço
-                  // do container pai
                   fit: StackFit.expand,
                   children: [
                     FadingImage("assets/images/main_banner.jpg"),
